@@ -14,6 +14,12 @@
 		background: #000;
 		    padding: 12px 0;
 	}
+	.markdown-body table {
+    display: block;
+    width: auto;
+    overflow: auto;
+    background: #fff;
+}
 	.container {
     margin: 0 auto;
     padding: 0px 5px;
@@ -43,18 +49,19 @@
 }
 	.table_box .new_table thead th{
 		background: #dd9933;
-		    padding: 5px;
+		    padding: 10px;
+	color: #fff;
 	}
 	.table_box .new_table tbody td{
 		background: #f2f2f2;
-		    padding: 5px;
+		    padding: 10px;
 	}
 	.new_table{
 		margin: 0 auto;
     	border-collapse: collapse;
 	}
 	.table_box .new_table tr:nth-of-type(even) {
-    background: #fff;
+    background: #fff4e5;
 }
 	.markdown-body img {
     max-width: 100%;
