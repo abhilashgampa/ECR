@@ -14,10 +14,11 @@
 		background: #000;
 		    padding: 12px 0;
 	}
-	.container{
-		margin: 0 auto;
-    	padding: 0px 50px;
-	}
+	.container {
+    margin: 0 auto;
+    padding: 0px 5px;
+    width: 1100px;
+}
 	.logo_box{
 		width: 130px; float: left;
 	}
@@ -34,10 +35,12 @@
 		background: #fff;
 		    padding: 12px 0;
 	}
-	.table_box{
-		    width: 100%;
-     margin: 0 auto; font-size: 15px;
-	}
+	.table_box {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 15px;
+    display: flex;
+}
 	.table_box .new_table thead th{
 		background: #dd9933;
 		    padding: 5px;
@@ -53,6 +56,23 @@
 	.table_box .new_table tr:nth-of-type(even) {
     background: #fff;
 }
+	.markdown-body img {
+    max-width: 100%;
+    box-sizing: content-box;
+    background-color: #fff;
+    background: none;
+}
+.container-lg {
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+	.markdown-body h1{
+	    display: none;
+	}
 </style>
 
 <div class="main_window">
