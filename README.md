@@ -21,8 +21,7 @@
         background: #fff;
     border-collapse: collapse;
     border-radius: 25px;
-    overflow: hidden;
-}
+ }
 	.container {
     margin: 0 auto;
     padding: 0px 25px;
