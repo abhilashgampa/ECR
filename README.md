@@ -18,12 +18,15 @@
     display: block;
     width: auto;
     overflow: auto;
-    background: #fff;
+        background: #fff;
+    border-collapse: collapse;
+    border-radius: 25px;
+    overflow: hidden;
 }
 	.container {
     margin: 0 auto;
-    padding: 0px 5px;
-    width: 1100px;
+    padding: 0px 25px;
+    width: 100%;
 }
 	.logo_box{
 		width: 130px; float: left;
@@ -39,7 +42,7 @@
 		width: 100%;
 		float: left;
 		background: #fff;
-		    padding: 12px 0;
+		    padding:60px 0;
 	}
 	.table_box {
     width: 100%;
