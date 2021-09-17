@@ -101,13 +101,13 @@
 				<table class="new_table" cellpadding="2" cellspacing="2" border="1">
 					<thead>
 						<tr>
-							<th>Title</th>
-							<th>Address</th>
+							<th>Chain</th>
+							<th>Contract Address</th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
-							<td>ETH </td>
+							<td>Etherum </td>
 							<td>0x62De7d65739d2ac81C12CC30BBB1223c88753C23 </td>
 						</tr>
 						<tr>
